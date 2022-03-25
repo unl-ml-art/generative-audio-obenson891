@@ -1,12 +1,11 @@
 # Project 2 Generative Audio
 
-Your Name, yourcontact@unl.edu
+Olivia Benson obenson2@huskers.unl.edu 
 
-(Your teammate's contact info, if appropriate)
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+With limited knowledge of music at all, my ideas include using completion to finish popular internet sounds, such as tiktok sounds, vine sounds etc. My other idea would be to work with voice clones/vocaloids but I am unsure of the limitations and software we have available for this project. 
 
 ## Model/Data
 
