@@ -5,37 +5,41 @@ Olivia Benson obenson2@huskers.unl.edu
 
 ## Abstract
 
-With limited knowledge of music at all, my ideas include using completion to finish popular internet sounds, such as tiktok sounds, vine sounds etc. My other idea would be to work with voice clones/vocaloids but I am unsure of the limitations and software we have available for this project. 
+My roommate, Elizabeth, has been working on a musical album. However, said album has been kept top secret. She will not let me listen to anything from this album or even know any of the lyrics. All I know about it is the title and the names of the songs. It has been in the works for a long time now and my curiosity has grown.
+
+For this project, I wanted to create a voice clone of Elizabeth combined with generative music to sample what this album could sound like. 
+
+To achieve this, I took the existing song titles and asked GPT-3 to write short lyrics to accompany the title. I then took those lyrics and combined them with a recording of Elizabeth speaking to create a clone of her voice speaking those lyrics. I used Performance RNN to create random short piano accompaniments for each piece and edited it all together in Adobe Premiere with the album cover. 
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+Included in this repo:
+- Voice clone training jupiter file
+- Final edited video showcasing the instrumentals combined with the voice clone
+- All the generated instrumental songs
+- All the voice clone text to speech files
+- PDF of the results/inputs used to create lyrics in GPT-3
+- Performance RNN file used to create instrumentals
+- Cover photo for the album "Greatest Hits" created by Elizabeth 
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- CoLab: Performance_RNN.ipynb
+- Jupyter notebooks: YourTTS_zeroshot_TTS_demo.ipynb
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- `.wav` files or `.mp4`
-- `.midi` files
-- musical scores
-- ... some other form
+Video output, editing together the generated instrumentals with their "singing" counterparts.
+- Generative Audio.mp4
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+Requires:
+- Jupiter Notebook
+- CoLab
+- Adobe Premire
+- OpenAi GPT-3
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+
